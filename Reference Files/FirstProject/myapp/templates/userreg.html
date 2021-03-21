@@ -1,0 +1,27 @@
+<html>
+    <head>
+            <title>From userreg.html page</title>
+    </head>
+
+    <body bgcolor="#FF6F61">
+            
+        <h2 align="center" style="color:White"> Django CRUD opearations</h2><hr color="red"><hr color="red">
+            <a href="{% url 'index' %}">Index</a>  <br>
+            <a href="{% url 'user_login' %}">User Login</a> <br>
+            <a href="{% url 'admin_login' %}">Admin Login</a> <br>
+            <a href="{% url 'contact_page' %}">Contact Us</a> <br>
+            <a href="{% url 'user_reg' %}">User Registration</a>
+            <h3 align="center">User Registration</h3>
+            <br><br><br>
+            <h3 align=center><u>User Registration</u></h3><br><br>
+            <form method="post">
+                {% csrf_token %} 
+
+                { % for field in form % }
+                    
+                        {{field}}
+
+                { % endfor % }
+            </form>
+    </body> 
+</html>

@@ -1,0 +1,35 @@
+<html>
+    <head>
+            <title>From adminlogin.html page</title>
+    </head>
+
+    <body bgcolor="#EFC050">
+        <h2 align="center" style="color:White"> Django CRUD opearations</h2><hr color="red"><hr color="red">
+            
+            <a href="{% url 'index' %}">Index</a>  <br>
+            <a href="{% url 'user_login' %}">User Login</a> <br>
+            <a href="{% url 'admin_login' %}">Admin Login</a> <br>
+            <a href="{% url 'contact_page' %}">Contact Us</a> <br>
+            <a href="{% url 'user_reg' %}">User Registration</a>
+        <h3 align="center">Admin Login</h3>
+        
+    <form method='post' action="{% url 'checkadmin' %}"> 
+        {% csrf_token %}  
+        <table align=center>
+                <tr>
+                    <td> Enter User Name</td>
+                    <td> <input type="text" name="aid" required> </td>
+                </tr>                
+                <tr>
+                    <td>Enter Password </td>
+                    <td> <input type="password" name="apwd" required> </td> 
+                </tr>
+                <tr align="center">
+                        <td ><input type="submit" value="Login"></td>
+                        <td ><input type="reset" value="Clear"></td>
+                </tr>
+        </table>
+    </form>
+ </body>
+
+</html>
