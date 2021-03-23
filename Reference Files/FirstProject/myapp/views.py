@@ -21,6 +21,8 @@ def subfunction(request,a,b):
     return HttpResponse(a-b)
 def strfunction(request,name):
     return HttpResponse(name)
+def calcmul(request):
+    return HttpResponse(a*b)
 def str1function(request,name,id):
     mydict ={
         "name" : name,
