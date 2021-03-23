@@ -10,6 +10,7 @@ urlpatterns = [
     path('calcsub/<int:a>/<int:b>',views.subfunction,name="sub"),
     path('calc/<str:name>',views.strfunction,name="str"),
     path('calc/<str:name>/<int:id>',views.str1function,name="str1"),
+    path('calc/<int:id>*<int:id>',views.calcmul,name="mul_calc"),
     #path('myappindex/',views.appindexfunction,name="p_index"),
     #path('myappindex/cus/',views.contact,name="contact"),
     path('index',views.index,name="index"),
