@@ -10,5 +10,5 @@ def mainpagefunction(request):
 def userpage(request):
     return redirect("user")
 
-def mainfunction(request):
+def mainfunction():
     return HttpResponse("Main Function")
