@@ -9,3 +9,6 @@ def mainpagefunction(request):
 
 def userpage(request):
     return redirect("user")
+
+def mainfunction(request):
+    return HttpResponse("Main Function")
