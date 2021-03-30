@@ -14,4 +14,3 @@ DATABASES = {
 
 djangoproject is the name of the database
 USER,PASSWORD,PORT are to be modified accordingly.
-
