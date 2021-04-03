@@ -14,7 +14,7 @@ from pathlib import Path
 import os
 from django.db.backends.mysql.base import DatabaseWrapper
 DatabaseWrapper.data_types['DateTimeField'] = 'datetime'
-#the above line is not mandatory 
+#the above line is not mandatory [used in the lecture]
 import crispy_forms
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
