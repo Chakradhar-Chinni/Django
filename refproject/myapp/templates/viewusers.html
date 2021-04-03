@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <h1 align="center">Django CRUD Operations</h1>
+        <hr></hr> 
+    </head>
+
+    <body style="bgcolor:red",>
+        <a href="{% url 'admin-home_page' %}">Admin Home</a>
+        <a href="{% url 'view-users_page' %}">View Users</a>
+        <a href="{% url 'admin-log-out_page' %}">Admin Logout</a>
+
+
+        <h1 align="center">View Users</h><br><br>
+
+        <table align="center" border=2px width=1000>
+            <tr>
+                <th>Id</th>
+                <th>Full Name</th>
+                <th>Email</th>
+                <th>User Name</th>
+                <th>Password</th>
+                <th>Mobile Number</th>
+                <th>Location</th>
+            <tr>
+
+            {% for user in users%}
+            <tr>
+                    <td>{{user.id}}</td>
+                    <td>{{user.fullname}}</td>
+                    <td>{{user.email}}</td>
+                    <td>{{user.username}}</td>
+                    <td>{{user.password}}</td>
+                    <td>{{user.mobileno}}</td>
+                    <td>{{user.location}}</td>
+            </tr>
+                {% empty %}
+                <h3 align="center">No records found</h3>
+            {% endfor %}
+        </table>
+
+
+    </body>
+</html>

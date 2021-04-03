@@ -1,0 +1,30 @@
+<html>
+
+    <head>
+            <h1>Temp app</h1>
+    </head>
+
+    <body>
+         <a href="{% url 'index_page' %}">Index</a>
+         <a href="{% url 'login_page' %}">Login</a>
+         <a href="{% url 'pro-log_page' %}">Products & Logistics </a>
+
+            <form method='POST' action = "{% url 'check-manager_page' %}">
+            {% csrf_token %}
+            <table align="center">
+                <tr>
+                   <td>User Name<td>
+                   <td><input type="text" name="mid">                    
+                <tr>
+                    <td>Password<td>
+                    <td><input type="password" name="mpwd">
+                <tr>
+                    <td><input type="submit" value="Login"></td>
+                <tr>
+            </table>
+
+            </form>
+
+    </body>
+
+</html>

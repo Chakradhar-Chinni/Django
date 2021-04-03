@@ -1,0 +1,27 @@
+{% load crispy_forms_tags %}
+<html>
+
+    <head>
+            <h1>Temp app</h1>
+    </head>
+
+    <body>
+
+         <a href="{% url 'index_page' %}">Index</a>
+        <hr></hr>
+        <h1 align="center">Products & Logistics </h1>
+        <hr></hr>
+
+        <form method='POST'>
+        {% csrf_token %}
+            <center>
+                        {% for field in form %}
+                            {{field | as_crispy_field}}
+                        {% endfor %}<br><br>
+            <input type="submit" value="Insert Data">
+        </form>
+        </center>
+
+    </body>
+
+</html>
