@@ -4,6 +4,6 @@ from .models import User
   
 class RegistrationForm(forms.ModelForm):  
     class Meta:      
-        model = User  
+        model = User   
         fields = "__all__"
  
