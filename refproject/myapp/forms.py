@@ -1,6 +1,6 @@
 from django import forms
 from .models import User
-#from .models import modelnames
+#from .models import modelnames 
  
 class RegistrationForm(forms.ModelForm):
     class Meta:   
