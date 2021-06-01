@@ -14,5 +14,5 @@ class Card(models.Model):
       
        
       
- 
+  
  
