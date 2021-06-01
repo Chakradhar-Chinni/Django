@@ -15,3 +15,4 @@ class Card(models.Model):
        
     
  
+ 
