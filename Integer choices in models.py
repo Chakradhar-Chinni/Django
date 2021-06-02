@@ -13,7 +13,7 @@ class Card(models.Model):
            
             
          
-       
+        
   
  
  
