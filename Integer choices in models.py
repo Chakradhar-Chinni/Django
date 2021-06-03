@@ -1,4 +1,4 @@
-class Card(models.Model): 
+class Card(models.Model):  
      
     class Suit(models.IntegerChoices):        
         DIAMOND = 1     
