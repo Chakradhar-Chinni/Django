@@ -1,5 +1,5 @@
 class Card(models.Model): 
-  
+   
     class Suit(models.IntegerChoices):       
         DIAMOND = 1    
         SPADE = 2      
