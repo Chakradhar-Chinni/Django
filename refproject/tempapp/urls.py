@@ -1,6 +1,6 @@
 from django.urls import path
 from tempapp import views
-
+ 
 urlpatterns=[
     path('index',views.index,name='index_page'),
     path('login',views.login,name='login_page'), 
