@@ -21,3 +21,4 @@ urlpatterns = [
     path('',include('myapp.urls')),
     path('',include('tempapp.urls')),
 ]
+ 
