@@ -6,7 +6,7 @@ class Candidate(models.Model):
     Logistics = models.CharField(max_length=100,blank=False)    
     class Meta:     
         db_table = "candidate_table"    
-         
+          
 class Product(models.Model):  
     brand = models.CharField(max_length=100,blank=False)  
     origin = models.CharField(max_length=100,blank=False)
