@@ -5,7 +5,7 @@ class Candidate(models.Model):
     Product   = models.CharField(max_length=100,blank=False)  
     Logistics = models.CharField(max_length=100,blank=False)    
     class Meta:     
-        db_table = "candidate_table"   
+        db_table = "candidate_table"    
          
 class Product(models.Model):  
     brand = models.CharField(max_length=100,blank=False)  
