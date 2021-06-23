@@ -5,3 +5,4 @@ admin.site.register(Candidate)
 admin.site.register(Product)  
   
  
+ 
