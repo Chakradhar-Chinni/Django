@@ -10,6 +10,3 @@ class Card(models.Model):
      
     Source(official documentation): https://docs.djangoproject.com/en/dev/ref/models/fields/#integerfield         
                
- 
- 
- 
