@@ -11,7 +11,7 @@ DATABASES = {
         'PORT' : 3306
     }
 }
-
+ 
 djangoproject is the name of the database
 USER,PASSWORD,PORT are to be modified accordingly. 
  
