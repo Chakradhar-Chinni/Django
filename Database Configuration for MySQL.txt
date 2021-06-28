@@ -9,7 +9,7 @@ DATABASES = {
         'USER' : 'root',
         'PASSWORD' : 'admin',
         'PORT' : 3306
-    }
+    } 
 }
  
 djangoproject is the name of the database
