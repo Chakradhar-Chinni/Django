@@ -3,7 +3,7 @@ This configuration is to be modified in settings.py file of the project folder
 *******************************************************************************
  
 DATABASES = {
-    'default': {  
+    'default': {   
         'ENGINE': 'django.db.backends.mysql',   
         'NAME': 'djangoproject',   
         'USER' : 'root',
