@@ -5,7 +5,7 @@ This configuration is to be modified in settings.py file of the project folder
 DATABASES = {
     'default': {   
         'ENGINE': 'django.db.backends.mysql',   
-        'NAME': 'djangoproject',   
+        'NAME': 'djangoproject',    
         'USER' : 'root', 
         'PASSWORD' : 'admin',
         'PORT' : 3306
