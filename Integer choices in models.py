@@ -6,7 +6,7 @@ class Card(models.Model):
         HEART = 3                
         CLUB = 4          
          
-    suit = models.IntegerField(choices=Suit.choices)  
+    suit = models.IntegerField(choices=Suit.choices)   
      
     Source(official documentation): https://docs.djangoproject.com/en/dev/ref/models/fields/#integerfield          
                
