@@ -12,5 +12,5 @@ return render(request, 'home.html')
     ##name on the above line dynamically gives the value to home.html which is as {{name}}
  
     #edit: gitbash
- 
+  
  
