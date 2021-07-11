@@ -1,5 +1,5 @@
 *******************************************************************************
-This configuration is to be modified in settings.py file of the project folder
+This configuration is to be modified in settings.py file of the project folder 
 ******************************************************************************* 
     
 DATABASES = {  
