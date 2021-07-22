@@ -7,7 +7,7 @@ class Card(models.Model):
         CLUB = 4                
                
     suit = models.IntegerField(choices=Suit.choices)     
-      
+        
     Source(official documentation): https://docs.djangoproject.com/en/dev/ref/models/fields/#integerfield          
                 
  
