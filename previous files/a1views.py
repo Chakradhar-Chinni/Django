@@ -10,7 +10,7 @@ return render(request, 'home.html')
     return render(request, 'home.html',{'name':'Chakradhar Chinni'})     
                                              
     ##name on the above line dynamically gives the value to home.html which is as {{name}} 
-  
+   
     #edit: gitbash 
    
   
