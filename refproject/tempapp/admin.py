@@ -6,4 +6,4 @@ admin.site.register(Product)
                  
          
        
-       
+        
