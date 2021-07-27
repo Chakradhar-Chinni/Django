@@ -4,7 +4,7 @@ from .models import Candidate,Product
 admin.site.register(Candidate)     
 admin.site.register(Product)       
                   
-                
+                 
         
            
   
