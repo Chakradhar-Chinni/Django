@@ -11,4 +11,4 @@ class ProductForm(forms.ModelForm):
         model = Product       
         fields = "__all__"     
    
- 
+   
