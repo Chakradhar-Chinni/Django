@@ -3,7 +3,7 @@ from .models import Candidate,Product
   
 class CandidateForm(forms.ModelForm):  
     class Meta:  
-        model = Candidate       
+        model = Candidate        
         fields = "__all__"                
     
 class ProductForm(forms.ModelForm):                 
