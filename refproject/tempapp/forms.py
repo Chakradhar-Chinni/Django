@@ -7,7 +7,7 @@ class CandidateForm(forms.ModelForm):
         fields = "__all__"                
                                                       
 class ProductForm(forms.ModelForm):                                                                                                
-    class Meta:                                     
+    class Meta:                                                     
         model = Product                          
         fields = "__all__"                                 
    
