@@ -22,7 +22,7 @@ urlpatterns = [
     path('',include('tempapp.urls')),              
 ]
   
-   
+    
  
       
  
