@@ -5,5 +5,5 @@ class TempappConfig(AppConfig):
     name = 'tempapp' 
       
     
-   
+    
  
